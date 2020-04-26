@@ -1,34 +1,13 @@
 libgit2 - the Git linkable library
 ==================================
 
-| Build Status | |
-| ------------ | - |
-| **master** branch CI builds | [![Azure Pipelines Build Status](https://dev.azure.com/libgit2/libgit2/_apis/build/status/libgit2?branchName=master)](https://dev.azure.com/libgit2/libgit2/_build/latest?definitionId=7&branchName=master)   |
-| **v1.0 branch** CI builds | [![Azure Pipelines Build Status](https://dev.azure.com/libgit2/libgit2/_apis/build/status/libgit2?branchName=maint/v1.0)](https://dev.azure.com/libgit2/libgit2/_build/latest?definitionId=7&branchName=maint/v1.0) |
-| **v0.28 branch** CI builds | [![Azure Pipelines Build Status](https://dev.azure.com/libgit2/libgit2/_apis/build/status/libgit2?branchName=maint/v0.28)](https://dev.azure.com/libgit2/libgit2/_build/latest?definitionId=7&branchName=maint/v0.28) |
-| **Nightly** builds | [![Azure Pipelines Build Status](https://libgit2.visualstudio.com/libgit2/_apis/build/status/nightly?branchName=master&label=Full+Build)](https://libgit2.visualstudio.com/libgit2/_build/latest?definitionId=9&branchName=master) [![Coverity Build Status](https://dev.azure.com/libgit2/libgit2/_apis/build/status/coverity?branchName=master&label=Coverity+Build)](https://dev.azure.com/libgit2/libgit2/_build/latest?definitionId=21?branchName=master) [![Coverity Scan Build Status](https://scan.coverity.com/projects/639/badge.svg)](https://scan.coverity.com/projects/639) |
+CODEOWNERS
+==========
 
-`libgit2` is a portable, pure C implementation of the Git core methods
-provided as a linkable library with a solid API, allowing to build Git
-functionality into your application.  Language bindings like
-[Rugged](https://github.com/libgit2/rugged) (Ruby),
-[LibGit2Sharp](https://github.com/libgit2/libgit2sharp) (.NET),
-[pygit2](http://www.pygit2.org/) (Python) and
-[NodeGit](http://nodegit.org) (Node) allow you to build Git tooling
-in your favorite language.
+This is a fork of libgit2 which adds functionality to interrogate CODEOWNERS
+data on a per-file basis.  See include/git2/codeowners.h
 
-`libgit2` is used to power Git GUI clients like
-[GitKraken](https://gitkraken.com/) and [gmaster](https://gmaster.io/)
-and on Git hosting providers like [GitHub](https://github.com/),
-[GitLab](https://gitlab.com/) and
-[Azure DevOps](https://azure.com/devops).
-We perform the merge every time you click "merge pull request".
-
-`libgit2` is licensed under a **very permissive license** (GPLv2 with a special
-Linking Exception).  This basically means that you can link it (unmodified)
-with any kind of software without having to release its source code.
-Additionally, the example code has been released to the public domain (see the
-[separate license](examples/COPYING) for more information).
+Original libgit2 source: https://github.com/libgit2/libgit2
 
 Table of Contents
 =================
@@ -88,7 +67,7 @@ Getting Help
 
 If you have questions about the library, please be sure to check out the
 [API documentation](http://libgit2.github.com/libgit2/).  If you still have
-questions, reach out to us on Slack or post a question on 
+questions, reach out to us on Slack or post a question on
 [StackOverflow](http://stackoverflow.com/questions/tagged/libgit2) (with the `libgit2` tag).
 
 **Reporting Bugs**

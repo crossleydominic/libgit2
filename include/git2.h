@@ -23,6 +23,7 @@
 #include "git2/common.h"
 #include "git2/config.h"
 #include "git2/credential.h"
+#include "git2/codeowners.h"
 #include "git2/deprecated.h"
 #include "git2/describe.h"
 #include "git2/diff.h"
